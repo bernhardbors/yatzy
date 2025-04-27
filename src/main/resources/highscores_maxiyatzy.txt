@@ -1,1 +1,4 @@
-Tuva,445
+Spiller 1,445
+Spiller 2,400
+Spiller 3,340
+Spiller 4,290

@@ -1,1 +1,4 @@
-Spiller 1,52
+Spiller 1,300
+Spiller 2,273
+Spiller 3,236
+Spiller 4,190
