@@ -3,3 +3,4 @@ Dette repoet inneholder et Yatzy-spill med både klassisk yatzy og maxiyatzy. N�
 Man kan få bonus (50 poeng) om man får 63 poeng i klassisk yatzy, eller 84 poeng i maxi yatzy. Yatzy gir 100 poeng for begge moduser. Resten av kategoriene beregnes ut ifra øyne på godkjente terninger (f.eks. om man ruller to par med firere og femmere vil man få 4*2 + 5*2 poeng, altså 18)
 Når spillet er ferdig vises game over-skjermen. Her kommer resultatlisten opp med spillernavn og poeng rangert etter hvem som fikk flest. Under kan man trykke "Tilbake til startskjerm" for å bli sendt tilbake til hovedmenyen.
 I hovedmenyen har man også mulighet til å trykke highscores. Programmet åpner da en side med ledertavle for både yatzy og maxiyatzy. Det er de ti beste poengsummene i sine respektive kategorier som lagres her.
+Link til video av spillet: https://youtu.be/wnGE2nx0FtI
