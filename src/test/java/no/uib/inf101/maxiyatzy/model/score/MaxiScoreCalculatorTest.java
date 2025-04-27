@@ -65,6 +65,8 @@ public class MaxiScoreCalculatorTest {
     @Test
     public void testMaxiYatzy() {
         int[] dice = {1, 2, 3, 4, 5, 6};
-        assertEquals(0, calculator.calculateScore(dice, MaxiScoreCategory.YATZY));
+        assertEquals(0, calculator.calculateScore(dice, MaxiScoreCategory.MAXI_YATZY));
+        int[] dice2 = {1, 1, 1, 1, 1, 1};
+        assertEquals(100, calculator.calculateScore(dice2, MaxiScoreCategory.MAXI_YATZY));
     }
 }

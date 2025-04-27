@@ -114,6 +114,9 @@ public class MaxiScoreCalculator implements IScoreCalculator {
                 }
                 return (hasFour && hasTwo) ? score : 0;
             }
+            case MAXI_YATZY -> {
+                return findMaxiYatzy(counts);
+            }
 
             default -> {
                 try {
@@ -125,6 +128,14 @@ public class MaxiScoreCalculator implements IScoreCalculator {
                 }
             }
         }
+    }
+
+    private int findMaxiYatzy(int[] counts) {
+        for (int i = 1; i <= 6; i++) {
+            if (counts[i] == 6)
+                return 100;
+        }
+        return 0;
     }
 
 }

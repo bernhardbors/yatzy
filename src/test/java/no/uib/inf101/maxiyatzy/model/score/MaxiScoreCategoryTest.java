@@ -43,6 +43,6 @@ public class MaxiScoreCategoryTest {
         assertEquals("Hus (3+3)", MaxiScoreCategory.TWO_TRIPS.getDisplayName());
         assertEquals("Tårn (4+2)", MaxiScoreCategory.TOWER.getDisplayName());
         assertEquals("Sjanse", MaxiScoreCategory.CHANCE.getDisplayName());
-        assertEquals("Yatzy", MaxiScoreCategory.YATZY.getDisplayName());
+        assertEquals("Maxi Yatzy", MaxiScoreCategory.MAXI_YATZY.getDisplayName());
     }
 }
